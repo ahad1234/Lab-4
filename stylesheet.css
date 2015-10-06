@@ -1,0 +1,145 @@
+@-webkit-keyframes example {
+    from { background-position: 0%  ;}
+    to {background-position: 200% ;}
+}
+
+@-webkit-keyframes barmove {
+    from { right: 20%  ;}
+    to {right : 100% ;}
+}
+
+h1 {
+
+  text-align: center;
+  font-family: helvetica;
+  
+
+}
+
+h2{
+	text-align: center;
+	font-family: helvetica
+
+}
+
+
+
+div.background{	
+	width: 80%;
+	height: 60%;
+	position: absolute;
+	background-image: url("background.jpg");	
+	background-position: center;
+	background-repeat: repeat-x;
+	transform : x ;
+	animation : example 5s linear infinite ;
+	
+}
+
+
+#iconUp{
+	position: relative;
+	top : 4px;
+	left: 40px;
+	width:14%;
+	height: 40%;
+	
+	background-image: url("icon.png");
+}
+
+#bar1{
+
+	position: absolute;
+	
+	
+	width: 2%;
+	height: 20%;
+	
+	background-image: url("bar.png");
+	
+	background-repeat: repeat-x;
+	transform : x ;
+	animation : barmove 5s linear infinite ;
+
+	
+
+}
+
+#bar2{
+
+	position: absolute;
+	top : 320px;
+	/*left: 600px;*/
+	width:2%;
+	height: 20%;
+	background-image: url("bar.png");
+	background-repeat: repeat-x;
+	transform : x ;
+	animation : barmove 8s linear infinite ;
+	
+}
+
+#bar3{
+
+	position: absolute;
+	top : 0px;
+	width:2%;
+	height: 20%;
+	background-image: url("bar.png");
+	
+	background-repeat: repeat-x;
+	transform : x ;
+	animation : barmove 10s linear infinite ;
+	
+}
+
+#bar4{
+
+	position: absolute;
+	top : 130px;
+	
+	width:2%;
+	height: 20%;
+	background-image: url("bar.png");
+	
+	background-repeat: repeat-x;
+	transform : x ;
+	animation : barmove 14s linear infinite ;
+	
+}
+
+/*
+#iconDown{
+	position: relative;
+	top : 200px;
+	left: 40px;
+	width:14%;
+	height: 40%;
+	
+	background-image: url("icon.png");
+}
+*/
+div.buttons{
+	position: absolute;
+	top : 100%;
+	left : 53%;
+
+}
+/*
+
+#iconUp {
+	display:none;
+}
+
+#iconDown {
+	display:none;
+}
+
+#iconUp:target {
+	display:block;
+}
+
+#iconDown:target {
+	display:block;
+}
+*/
