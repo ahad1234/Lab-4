@@ -4,8 +4,8 @@
 }
 
 @-webkit-keyframes barmove {
-    from { right: 20%  ;}
-    to {right : 100% ;}
+  0%{margin-left:1000px}
+100%{margin-left:-30px}
 }
 
 h1 {
@@ -24,7 +24,7 @@ h2{
 
 
 
-div.background{	
+#background{	
 	width: 80%;
 	height: 60%;
 	position: absolute;
@@ -47,19 +47,26 @@ div.background{
 	background-image: url("icon.png");
 }
 
+
+
+#gameover div{
+
+	position: absolute;
+	top : 26px; 
+	
+	}
+
+
+
 #bar1{
 
 	position: absolute;
-	
-	
 	width: 2%;
 	height: 20%;
-	
 	background-image: url("bar.png");
-	
 	background-repeat: repeat-x;
 	transform : x ;
-	animation : barmove 5s linear infinite ;
+	animation : barmove 8s linear infinite ;
 
 	
 
@@ -75,7 +82,7 @@ div.background{
 	background-image: url("bar.png");
 	background-repeat: repeat-x;
 	transform : x ;
-	animation : barmove 8s linear infinite ;
+	animation : barmove 12s linear infinite ;
 	
 }
 
@@ -89,7 +96,7 @@ div.background{
 	
 	background-repeat: repeat-x;
 	transform : x ;
-	animation : barmove 10s linear infinite ;
+	animation : barmove 12s linear infinite ;
 	
 }
 
@@ -104,7 +111,7 @@ div.background{
 	
 	background-repeat: repeat-x;
 	transform : x ;
-	animation : barmove 14s linear infinite ;
+	animation : barmove 5s linear infinite ;
 	
 }
 
